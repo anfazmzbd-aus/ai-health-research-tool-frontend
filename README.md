@@ -1,8 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+First create frontend app folder
+npx create-next-app@latest frontend `
+  --typescript --tailwind --eslint --app `
+  --no-src-dir --import-alias "@/*" `
+  --yes
+  
+Install required modules
+npm install react-markdown remark-gfm lucide-react clsx --save --legacy-peer-deps
 
-First, run the development server:
+Then, run the development server:
 
 ```bash
 npm run dev
