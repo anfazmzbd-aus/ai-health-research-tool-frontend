@@ -2,12 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 First create frontend app folder
+
 npx create-next-app@latest frontend `
   --typescript --tailwind --eslint --app `
   --no-src-dir --import-alias "@/*" `
   --yes
   
 Install required modules
+
 npm install react-markdown remark-gfm lucide-react clsx --save --legacy-peer-deps
 
 Then, run the development server:
